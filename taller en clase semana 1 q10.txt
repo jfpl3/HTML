@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 2</title>
+</head>
+<body>
+  <h1>INTRODUCION HTML - CSS </h1> 
+  <b><font color = "red"> TEXTO EN NEGRILLA Y COLOR ROJO </font></b>
+  <br>
+  <u> <i> <font color = "blue">Css hoja de estilo en cascada </font> </font></i></u>
+  <hr align="center" width="50%" color="black"> 
+  <font color= "blue" face= "ravie"> la forma quimica del agua es H<sub> </font color="green">2</font></sub>0</font> 
+  <br>
+  <font color="purple"><s> lanzamiento en 1996. </s><i> como complemento de documentos estructurados </i><b> simple flexible y combinacion con otros lenguajes</b></font>
+  <hr align="center"width="88%"> 
+<font color= "red" size="12" face= "calibri">Una ecuacion en tercer grado es:
+</font>A <sup></font color="blue">3</font></sup>+B<sup><font color="green">2</font></sup>+C 
+
+</body>
+</html>
