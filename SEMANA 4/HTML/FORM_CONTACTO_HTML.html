@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="../IMG/incapp.png" alt=""width="100" height="100" alt="incap">
+    <h1>LISTAS Y FORMULARIOS EN HTML</h1>
+    <h2>MENU </h2>
+    </header>
+    <nav>
+        <ul>HOME<Li></Li>
+        <Li>Productos</Li>
+        <Li>Tienda online</Li>
+        <Li>Contacto</Li>
+        </nav>
+        <section>
+            <form action="datos.php"method="post"></form>
+            <fieldset>
+                <!-- Seccion de ingreso de nomnbre -->
+                <label for="">Nombre completo</label>
+                <input name="nombre" type="text" placeholder="&#9756; ingrese su nombre completo" required> 
+                <br><br>
+<!-- Seccion de email -->
+<label for="">email:</label>
+<input type="email" name="email" placeholder="&#9874; ingrese su email" required> <br><br>
+<!-- Seccion de contrasseña -->
+<label for="">contrasseña</label>
+<input type="password" name="contrasseña" required><br><br>
+<!-- Seccion de hobbies -->
+<label for="">Selecciona tus hobbies</label>
+<br>
+<input type="checkbox" name="CINE">Cine<br>
+<input type="checkbox" name="lectura"><Lectura><br>
+    <input type="checkbox" name="deporte">Deporte<br>
+    <br>
+    <hr>
+    <!-- Seccion de estado civil -->
+    <label for="">estado civil</label><br>
+    <input type="radio" name="estadcivil" Value="casado">casado(a)<br>
+    <input type="radio" name="estadcivil" Value="Soltero">Soltero(a)<br>
+    <input type="radio" name="estadcivil" value="Viudo">Viudo(a)<br>
+    <br><br>
+    <hr>
+    <!-- Seleccionar opcion de lista -->
+    <label for="">PROGRAMAS TECNICOS:</label>
+    <select name="select" id="">
+    <option value="">selecione programa..</option>
+    <option value="">Sistemas.</option>
+    <option value="">Diseño gráfico.</option>
+    <option value="">Contbilidad</option>
+    </select><br><br>
+    <hr>
+    <!-- Seccion de comentarios -->
+    <label for="">comentario:</label>
+    <textarea name="mensaje" id="" cols="40" rows="5"></textarea>
+    </fieldset>
+<br><br>
+<!-- Seccion de botones formulario submit: enviar datos cancel: borrar datos ingresados  -->
+<button type="submit">enviar</button>
+<button type="reset">cancelar</button>
+<br><br>
+</form>
+</section>
+<!-- Seccion de pie de pagina -->
+<footer>
+    derechos reservados &copy;2022&#64;NOMBRE std
+</footer>
+</body>
+</html>
